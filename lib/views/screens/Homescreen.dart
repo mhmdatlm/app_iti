@@ -29,6 +29,7 @@ class _HomescreenState extends State<Homescreen> {
       appBar: AppBar(
         backgroundColor: Color.fromARGB(161, 255, 153, 0),
         automaticallyImplyLeading: false,
+        actions: [Icon(Icons.list)],
         leading: IconButton(
           onPressed: () {
             Navigator.of(context).pop(); //............
